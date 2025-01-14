@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Chatbot</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+      }
+
+      .chat-container {
+        width: 800px;
+        margin: 50px auto;
+        background-color: white;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .chatbox {
+        padding: 10px;
+        height: 300px;
+        overflow-y: auto;
+      }
+
+      .input-container {
+        display: flex;
+        border-top: 1px solid #ddd;
+      }
+
+      #user-input {
+        flex-grow: 1;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-weight: 900; text-transform:uppercase ;font-size: 2rem; text-align: center;"> infoGlobe </h1>
+    <div class="navbar">
+        
+         <a href="">video</a>
+         <a href="">city</a>
+          <a href="">india</a>
+         <a href="">world</a>
+         <a href="">business</a>
+         <a href="">tech</a>
+         <a href="">cricket</a>
+         <a href="">sports</a>
+         <a href="">entertainment</a>
+         <a href="">auto</a>
+         <a href="">tv</a>
+         <div class="nav-search">
+          <i class="fa-solid fa-magnifying-glass" style="height: 50px;"></i>
+         </div>
+         <div class="nav-menu">
+          <i class="fa-solid fa-bars"></i>
+         </div>
+    </div>
+    
+
+
+
+
+
+
+    <div class="chat-container">
+      <div class="chatbox" id="chatbox">
+        <a href=""></a>
+        <div class="message bot-message">
+          Hello! I'm your news chatbot. Ask me for today's news or any other
+          general questions!
+        </div>
+      </div>
+      <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <div class="nav-sec">
+          <a href="https://www.livemint.com/news/india/latest-india-news-today-on-september-29-2024-live-updates-11727575125855.html"><img src="/https://www.youtube.com/watch?v=iPutfzIFL3Y" class="nav-pic"></a> 
+              
+            <div class="nav-pic2"></div>
+              
+               <div class="nav-pic3"></div>
+             <div class="nav-pic4"></div>
+    </div>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
